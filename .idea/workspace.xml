@@ -24,8 +24,9 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -36,6 +37,7 @@
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Tests (projectOne)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
       <working-directory value="$PROJECT_DIR$" />
       <node-interpreter value="project" />
       <envs />
@@ -44,6 +46,7 @@
     <configuration name="E2E Tests (projectOne)" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/node_modules/protractor" />
       <protractor-options value="" />
       <envs />
       <scope-kind value="ALL" />
@@ -88,7 +91,9 @@
       <workItem from="1580741942758" duration="356000" />
       <workItem from="1580764889209" duration="2565000" />
       <workItem from="1580801380129" duration="326000" />
-      <workItem from="1580823358535" duration="1975000" />
+      <workItem from="1580823358535" duration="3807000" />
+      <workItem from="1580913021549" duration="3757000" />
+      <workItem from="1580917713533" duration="2113000" />
     </task>
     <task id="LOCAL-00001" summary="test02">
       <created>1580823655831</created>
@@ -108,7 +113,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -126,11 +133,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="0" width="837" height="900" key="CommitChangelistDialog2/0.0.1440.900/-231.-1057.1920.1057@0.0.1440.900" timestamp="1580823655565" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1580824410424">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="958" y="-973" key="SettingsEditor" timestamp="1580919855629">
+      <screen x="663" y="-1080" width="1920" height="1080" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-231.-1057.1920.1057@0.0.1440.900" timestamp="1580823563979" />
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-231.-1080.1920.1080@0.0.1440.900" timestamp="1580824410424" />
+    <state x="958" y="-973" key="SettingsEditor/0.0.1440.900/663.-1080.1920.1080@663.-1080.1920.1080" timestamp="1580919855629" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1580823669297">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

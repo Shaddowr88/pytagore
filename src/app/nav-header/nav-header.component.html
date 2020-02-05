@@ -4,12 +4,12 @@
 
 </style>
 
-<div class="btn">
+<div cols="2" class="btn">
   <div>
-    <a mat-button [matMenuTriggerFor]="menu">Hello !</a>
+    <h2 mat-button [matMenuTriggerFor]="menu">Hello !</h2>
   </div>
 <mat-menu #menu="matMenu">
-  <button mat-menu-item>Github</button>
-  <button mat-menu-item>commentaire</button>
+  <button mat-menu-item >Github</button>
+  <button mat-menu-item routerLink="mas" routerLinkActive="active">commentaire</button>
 </mat-menu>
 </div>
