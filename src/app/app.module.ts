@@ -12,12 +12,6 @@ import { from } from 'rxjs';
 import { NavHeaderComponent } from './nav-header/nav-header.component';
 import { GridComponent } from './grid/grid.component';
 import { MasComponent } from './nexstep/mas/mas.component';
-import {  RouterModule, Routes  } from '@angular/router';
-
-
-const appRoutes: Routes = [
-  { path: 'mas' , component: MasComponent},
-];
 
 
 

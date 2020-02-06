@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {MasComponent} from './nexstep/mas/mas.component';
-
-
+import {  MasComponent  } from './nexstep/mas/mas.component';
+import {GridComponent} from './grid/grid.component';
+import { from } from 'rxjs';
 
 const routes: Routes = [
-
-  {
-    path: 'mas', component: MasComponent},
+  {path: '', component: GridComponent},
+  {path: 'mas', component: MasComponent},
 ];
 
 @NgModule({
